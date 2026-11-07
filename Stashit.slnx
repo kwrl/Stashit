@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Stashit/Stashit.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Stashit.Tests/Stashit.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,22 @@
+# Source control / IDE
+.git/
+.idea/
+.vs/
+.vscode/
+
+# Build artifacts (recreated inside the build stage)
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+
+# Local dev logs & coverage
+*.log
+coverage*.json
+coverage*.xml
+
+# Container config is not needed inside the image
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile
+.dockerignore
